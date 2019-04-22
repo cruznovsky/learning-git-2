@@ -39,7 +39,8 @@
 }
 
 p {
-  margin-block-start: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
   padding-top: 90px;
 }
 
@@ -48,8 +49,9 @@ span {
 }
 
 .test {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
