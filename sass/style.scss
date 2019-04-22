@@ -1,0 +1,42 @@
+.wrapper {
+  font-family: sans-serif;
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    .song {
+      text-align: center;
+      .title {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        max-width: 1200px;
+        h1 {
+          background-color: #ff2c00;
+          font-weight: 800;
+          padding: 10px 0;
+          margin: 0;
+          &:after {
+            content: "";
+            display: block;
+            width: 40%;
+            border: 2px solid black;
+            margin: 0 auto;
+          }
+        }
+      }
+      .lyrics {
+        background-color: #e84927;
+      }
+    }
+  }
+}
+
+p {
+  margin-block-start: 0;
+  padding-top: 90px;
+}
+
+span {
+  font-weight: 700;
+}
